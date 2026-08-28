@@ -1,0 +1,4 @@
+-- 03_water_quality_analysis.sql
+-- Purpose: core water-quality analysis using standard SQL
+-- (SELECT, WHERE, GROUP BY, ORDER BY, aggregate functions, CASE, HAVING).
+-- Populated in Phase 5.
