@@ -1,0 +1,4 @@
+-- 04_environmental_insights.sql
+-- Purpose: deeper environmental insights using CTEs, window functions,
+-- rankings, rolling averages, and anomaly identification.
+-- Populated in Phase 5.

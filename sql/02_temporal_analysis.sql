@@ -1,0 +1,4 @@
+-- 02_temporal_analysis.sql
+-- Purpose: examine how water-quality measurements change over time
+-- (yearly / monthly patterns, min/max, trends).
+-- Populated in Phase 5.

@@ -1,0 +1,4 @@
+-- 01_data_quality.sql
+-- Purpose: validate the cleaned water-quality dataset (row counts, NULLs,
+-- duplicates, distinct values) before it is used for analysis.
+-- Populated in Phase 5.
