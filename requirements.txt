@@ -1,0 +1,17 @@
+# Core data analysis
+pandas>=2.0
+numpy>=1.24
+
+# Visualisation
+matplotlib>=3.7
+seaborn>=0.12
+
+# Notebooks
+jupyter>=1.0
+ipykernel>=6.25
+
+# Testing
+pytest>=7.4
+
+# Note: Google Cloud (google-cloud-storage, google-cloud-bigquery) dependencies
+# will be added in Phase 8 once the cloud component of the project is built.
