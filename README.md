@@ -5,13 +5,18 @@ high-frequency water-quality sensor data from a monitoring buoy on the Brisbane 
 Australia. Built to demonstrate the combination of environmental science domain knowledge
 with Python, SQL, data cleaning, and cloud data engineering.
 
+## Live Dashboard
+
+**[Explore the interactive dashboard here](https://brisbane-river-water-quality-analysis-j7bqhctpst8zesqnauyffm.streamlit.app)** -- filter by season, switch between parameters, and explore the same charts and findings described below, live and interactive. Built with Streamlit and Plotly, reusing the same `src/cleaning.py` logic as the notebooks (`app.py` in this repo).
+
 ## Overview
 
 This project investigates water-quality measurements collected every 10-30 minutes from a
 river monitoring buoy, and identifies meaningful environmental patterns: seasonal cycles,
-daily (diel) oxygen rhythms, and a specific sustained turbidity event that is independently
-confirmed by three separate analytical methods across this project (Python, and two
-different SQL techniques).
+daily (diel) oxygen rhythms, and two turbidity events independently confirmed four separate
+ways across this project (Python, two different SQL techniques, and a reusable tested
+module). Both events border real equipment outages in the sensor's own logs, so sensor
+biofouling/maintenance disturbance is treated as at least as plausible a cause as rainfall.
 
 The project is intentionally scoped as a **data analytics and data engineering** project,
 not a machine-learning project -- the focus is on rigorous, well-documented cleaning,
@@ -139,7 +144,7 @@ flowchart LR
 
 ## Technologies
 
-Python (pandas, numpy, matplotlib, seaborn), Jupyter, SQL (SQLite), Git/GitHub, Google Cloud
+Python (pandas, numpy, matplotlib, seaborn), Jupyter, SQL (SQLite), Streamlit, Plotly, Git/GitHub, Google Cloud
 (Storage, BigQuery -- planned), GitHub Actions (planned).
 
 ## Repository structure
@@ -161,6 +166,7 @@ Python (pandas, numpy, matplotlib, seaborn), Jupyter, SQL (SQLite), Git/GitHub, 
     tests/               (unit tests for src/ -- planned)
     visualisations/
     .github/workflows/  (CI -- planned)
+    app.py             (live Streamlit dashboard)
     requirements.txt
     README.md
 
