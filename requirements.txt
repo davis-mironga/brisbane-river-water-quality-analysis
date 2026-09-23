@@ -15,3 +15,5 @@ pytest>=7.4
 
 # Note: Google Cloud (google-cloud-storage, google-cloud-bigquery) dependencies
 # will be added in Phase 8 once the cloud component of the project is built.
+streamlit
+plotly
